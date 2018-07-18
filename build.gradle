@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'QA-testlab'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'junit', name: 'junit', version: '4.12'
+    compile "log4j:log4j:1.2.17"
+    compile 'org.seleniumhq.selenium:selenium-java:3.13.0'
+}
+
